@@ -1,0 +1,30 @@
+.slider-container{
+    justify-content: center;
+    align-items: center;
+  padding: 5%;
+  margin: 10%;
+}
+
+.carousel{
+  
+}
+
+.slider-container {
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  margin: 10%;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .slider-container {
+    padding: 2%;
+    margin: 5%;
+  }
+}

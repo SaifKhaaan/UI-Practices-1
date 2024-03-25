@@ -1,0 +1,143 @@
+.header {
+    display: flex; 
+    /* justify-content: space-between;  */
+    align-items: center;
+  
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+   
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  /* .booksmarks-container{
+    display: flex;
+    gap:10px ;
+  }
+   */
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-right: 4rem;
+  }
+  
+  nav {
+    display: flex; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    justify-content: space-between;
+    /* margin-right: 15px; */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  nav span {
+    cursor: pointer; 
+    padding: 10px 15px;
+    border-radius: 4px;
+  
+    
+    text-decoration: none;
+  }
+  
+  nav span:hover {
+  }
+  
+  button {
+    
+    
+    padding: 20px 17px; 
+    margin-left: 4rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    
+    border:2px solid #89DB7B;
+
+    font-weight: 700;  
+    background-color: white;
+  }
+  .header-button-icon{
+    height: 10px;
+    width: 10px;
+  }
+
+  button:hover {
+  }
+  
+  .booksmarks-container a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .nav-btn{
+    visibility: hidden;
+    opacity: 0;
+    padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: center;
+    }
+  
+    .container {
+      flex-direction: column; 
+    }
+  
+    .logo {
+      margin-bottom: 1rem; 
+    }
+  
+    .nav {
+      margin-top: 1rem;
+      position: fixed;
+      top: 70vh;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #89DB7B;
+      transition: 1s;
+      transform: translateY(-100vh);
+      z-index: 999;
+      /* flex-direction: column;
+      justify-content: center; */
+    }
+    .responsive_nav {
+      transform: translateY(100vh);
+    }
+  
+    .contact-button {
+      margin-top: 1rem; 
+    }
+    .nav-btn {
+      visibility: visible;
+      opacity: 1;
+      font-size: larger;
+      border: #89DB7B;
+    }
+    .contact-btn{
+      visibility: hidden;
+      opacity: 0;
+    }
+  }

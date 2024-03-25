@@ -1,0 +1,66 @@
+.GreenHeading{
+    color:rgb(137,219,123);
+}
+
+
+
+.satisfy-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    margin-left: 2%;
+  }
+
+  .satisfy-card {
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-align: left;
+    display: flex;
+    /* width: 100%; */
+  }
+  .satisfy-card button {
+    justify-content: left;
+    width: 100px;
+  }
+
+  .read-more-btn {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: black ;
+    border: none;
+        }
+
+
+
+
+
+       
+@media (max-width: 768px) {
+  .satisfy-card-container {
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    width: 100%;
+  
+  }
+
+  .satisfy-card {
+    padding: 20px; /* Add padding to cards */
+    padding-top: 0; /* Remove top padding */
+    padding-bottom: 20px; /* Add bottom padding */
+    margin-left: 5px; 
+    margin-right: 5px;
+  }
+
+  .satisfy-card button {
+    width: 100%; /* Set button width to 100% */
+  }
+}

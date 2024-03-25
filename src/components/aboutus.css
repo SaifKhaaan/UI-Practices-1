@@ -1,0 +1,153 @@
+.aboutus-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.aboutus-left{
+display: flex;
+flex-direction: column;
+margin-right: 10%; 
+
+}
+
+#dots{
+margin-left: 55%;
+    width: 40%;
+    margin-top: -6rem;
+    z-index: 0;
+}
+
+#doc-with-mask{
+
+    z-index: 1;
+}
+
+.aboutus-right{
+
+    text-align: left;
+}
+
+
+
+.Learn-more-btn{
+background-color: rgb(137,219,123);
+    border:none;
+    font-size: medium;
+    /* font-weight: 900; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 4px 8px rgba(66, 135, 73, 0.3);
+    margin-left: -2%;
+
+}   
+
+#elipse{
+position: absolute;
+/* bottom: ; */
+top: 10;
+    right: 0;
+    left: 30;
+
+
+}
+
+.whyus-container{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.whyus-leftside{
+  text-align: start;
+  padding-right: 20px;
+  /* width: 40%; */
+  }
+
+.whyus-rightside-container{
+position: relative;
+/* top: 50%;
+right: 50%; */
+}
+
+.whyus-rightside-conatiner img {
+  width: 100%;
+}
+
+#rectangle{
+  position: absolute;
+z-index: 5;
+
+top:355%;
+right: 10%;
+}
+
+#woman-receiving-dental-check-up{
+  position: absolute;
+  z-index: 999;
+  top:372%;
+  right: 10%;
+  
+
+}
+
+
+.whyus-text-container{
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+
+
+.whyus-smallheading{
+
+  font-weight: 500;
+ 
+}
+
+.whyus-smallheading-text{
+margin-left: 15px;
+}
+  
+  /* Media query for smaller screens */
+  @media (max-width:768px) {
+
+    .aboutus-container{
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* .aboutus-container img{
+      width: 10%;
+    } */
+
+    .whyus-container {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+  
+    .whyus-leftside {
+      width: 40%; 
+      text-align: start;
+    }
+  
+    .whyus-rightside {
+      margin-top: 0; /* Remove top margin for spacing on larger screens */
+      width: 40%; /* Set width to 40% for larger screens */
+    }
+    .whyus-rightside-conatiner img {
+      width: 250%;
+    }
+  .whyus-text-container 
+    {width: 200%;
+
+    }
+  }
+  
