@@ -1,10 +1,11 @@
 .header {
     display: flex; 
     /* justify-content: space-between;  */
-    align-items: center;
+    /* align-items: center; */
   
     padding-top: 1rem ;
     padding-bottom: 1rem;
+    justify-content: space-evenly;
    
   }
   
@@ -29,10 +30,13 @@
   
   nav {
     display: flex; 
+    flex-direction: row;
     list-style: none;
     margin: 0;
     padding: 0;
-    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: -25%;
+    justify-content: space-evenly;
   }
   
   nav li {
@@ -44,7 +48,7 @@
   
   nav span {
     cursor: pointer; 
-    padding: 10px 15px;
+    padding: 10px ;
     border-radius: 4px;
   
     
@@ -108,7 +112,7 @@
     .nav {
       margin-top: 1rem;
       position: fixed;
-      top: 70vh;
+      top: 95vh;
       left: 0;
       height: 100%;
       width: 100%;
@@ -120,8 +124,8 @@
       transition: 1s;
       transform: translateY(-100vh);
       z-index: 999;
-      /* flex-direction: column;
-      justify-content: center; */
+      flex-direction: column;
+      justify-content: center;
     }
     .responsive_nav {
       transform: translateY(100vh);

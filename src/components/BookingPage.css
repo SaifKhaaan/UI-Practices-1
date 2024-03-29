@@ -11,9 +11,10 @@
 }
 
 .smiling-women-image-container img{
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
     /* width: 596.86px;
     height: 622px; */
+    width: 90%;
     z-index: 2;
     position: relative;
 }
@@ -21,6 +22,7 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     overflow-x: hidden;
 }
 
@@ -32,7 +34,7 @@ font-size: 54px;
 
 }
 
-.smile-image-wrapper{
+/* .smile-image-wrapper{
   max-width: 300px;
   max-height: 300px;
   display: flex;
@@ -41,9 +43,9 @@ font-size: 54px;
     width: 100%;
     height: 100%;
   }
-}
+} */
 
-.smiling-women-background{
+/* .smiling-women-background{
 position: absolute;
 top:45%;
 z-index:0 ;
@@ -56,7 +58,7 @@ z-index:0 ;
     border-top-left-radius: 200px; 
     border-top-right-radius: 200px; 
   
-}
+} */
 .booking-page-card-container{
     
     display: flex;
@@ -72,7 +74,7 @@ z-index:0 ;
     padding: 20px;
     margin: 1rem;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+    box-shadow: 5px 5px 5px 8px rgba(0, 0, 0, 0.03); 
     background-color: #ffffff;
     width: 25%;
     
@@ -83,6 +85,7 @@ z-index:0 ;
     background-color: rgb(137,219,123);
     border:none;
     font-size: x-large;
+    box-shadow: 4px 4px 8px 3px rgb(137,219,123,0.7);
     font-weight: 900;
     display: flex;
     align-self: flex-start;

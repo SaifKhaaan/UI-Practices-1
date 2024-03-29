@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a170c61.css",
+    "main.js": "/static/js/main.fafaca17.js",
+    "static/js/453.604a68ee.chunk.js": "/static/js/453.604a68ee.chunk.js",
+    "static/media/Maps-Component.png": "/static/media/Maps-Component.c23a898985138c627b74.png",
+    "static/media/fourth.png": "/static/media/fourth.f5f83e2859bf052297b9.png",
+    "static/media/fifth.png": "/static/media/fifth.d6d0e69404a7526a6a21.png",
+    "static/media/sixth.png": "/static/media/sixth.7d10ab6a26377ce7cf33.png",
+    "static/media/second.png": "/static/media/second.742d23119de413c6c3fa.png",
+    "static/media/dentistisolated.png": "/static/media/dentistisolated.573ba1abd78db125d5c6.png",
+    "static/media/Ellipse.png": "/static/media/Ellipse.a55230fd5b015d5bed86.png",
+    "index.html": "/index.html",
+    "main.4a170c61.css.map": "/static/css/main.4a170c61.css.map",
+    "main.fafaca17.js.map": "/static/js/main.fafaca17.js.map",
+    "453.604a68ee.chunk.js.map": "/static/js/453.604a68ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a170c61.css",
+    "static/js/main.fafaca17.js"
+  ]
+}

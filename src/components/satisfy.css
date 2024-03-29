@@ -7,9 +7,14 @@
 .satisfy-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    gap: 1%;
     justify-content: center;
-    margin-left: 2%;
+    align-items: center;
+    /* width: fit-content;  */
+    /* margin: 0 auto;  */
+  
+
   }
 
   .satisfy-card {
@@ -21,7 +26,8 @@
     background-color: #ffffff;
     text-align: left;
     display: flex;
-    /* width: 100%; */
+     justify-content: space-evenly;
+     /* width:85%;  */
   }
   .satisfy-card button {
     justify-content: left;
@@ -40,15 +46,23 @@
         }
 
 
+        .satisfy-card p{
+
+          /* width: 70%; */
+        }
 
 
+        .satisfy-card-textside{
+          width: 40%;
+          justify-content: left;
+        }
 
        
 @media (max-width: 768px) {
   .satisfy-card-container {
     grid-template-columns: repeat(1, 1fr); 
     gap: 20px; 
-    width: 100%;
+    /* width: 100%; */
   
   }
 

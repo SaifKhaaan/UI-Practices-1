@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  margin: 0 auto;
+  align-items: center;
+  /* padding :100px, 130px, 100px, 130px; */
 }
 
 @media (max-width: 768px){

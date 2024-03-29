@@ -9,11 +9,11 @@ const FreeConsultation = () => {
         <div>
           <h2>Free Consultation</h2>
           <div>
-            <div>
+            <div className='input-container'>
             <input className='input-field' type="text" placeholder='Full Name*' />
             <input className='input-field' type="text" placeholder="I'm interested in*" />
             </div><br />
-           <div>
+           <div className='input-container'>
            <input className='input-field' type="Email" placeholder='Email*' />
             <input className='input-field' type="number" placeholder='Phone Number*' />
            </div>

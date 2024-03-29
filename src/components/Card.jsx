@@ -11,6 +11,9 @@ const Card = (props) => {
             <img src={value.img} alt="" />
           </div>
           <div>
+            
+          </div>
+          <div>
             <h4>{value.title}</h4>
           </div>
           <div>

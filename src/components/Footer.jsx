@@ -44,7 +44,14 @@ const Footer = () => {
             <p>Stay updated with our Latest News</p>
             <div style={{ position: 'relative', width: 'fit-content' }}>
               <input type="text" placeholder='Your Email' style={{ paddingRight: '40px', color: 'black' }} />
-              <button className='newsletter-btn' type="button" style={{ position: 'absolute', right: '5px', top: '50%', transform: 'translateY(-50%)' }}> <img src="strVector.png" alt="" /></button>
+              <button className='newsletter-btn' 
+              
+              style={{ position: 'absolute', 
+                left:'57%',
+              //  right: '0',
+
+               top: '50%', transform: 'translateY(-50%)' }}
+               > <img src="strVector.png" alt="" /></button>
             </div>
             <div style={{ marginTop: '20px' }}>
               <img src="footer-icons.png" alt="" />

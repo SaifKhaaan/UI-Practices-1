@@ -19,17 +19,29 @@ text-align: left;
     border-radius: 40px; 
     outline: none; 
     margin: 2%;
+    
 
 }
 
 .newsletter-btn{
     border-radius: 50px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-top: 8px;
     padding-bottom: 8px;
+    /* justify-content: end; */
     background-color: rgb(137,219,123);
+   
+    padding: 8px 20px;
+    background-color: rgb(137, 219, 123);
+
+    /* position: 'absolute';
+
+               right: '0';
+
+               top: '50%';transform: 'translateY(-50%)'; */
 }
+
 
 
 .footer-text-container {
@@ -51,12 +63,6 @@ text-align: left;
     border-radius: 40px;
     outline: none;
     margin: 10px 0; 
-  }
-  
-  .newsletter-btn {
-    border-radius: 50px;
-    padding: 8px 20px;
-    background-color: rgb(137, 219, 123);
   }
   
   /* Media query for smaller screens */
